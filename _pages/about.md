@@ -23,4 +23,4 @@ latest_posts:
   limit: 3
 ---
 
-I'm a M.S. candidate in Computer Science at Stanford. My interest is in the interdisciplinary applications of deep learning and cryptography.
+I'm a M.S. candidate in Computer Science at Stanford. My interest is in embodied and secure deep learning.
