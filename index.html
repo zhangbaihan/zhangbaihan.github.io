@@ -44,7 +44,7 @@
               <td style="padding:16px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
                 <p>
-                  I'm interested in deep learning applied to computer vision, robotics, and the security and safety of AI systems.
+                  I'm interested in deep learning applied to computer vision, robotics, and the security of AI systems.
                 </p>
               </td>
             </tr>
@@ -53,10 +53,12 @@
 
             <tr>
               <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/psi06.png' width="160">
+                <video width="160" preload="metadata" autoplay muted loop playsinline>
+                  <source src="images/psi06.mp4" type="video/mp4">
+                </video>
               </td>
               <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2610.32177">
+                <a href="https://neuroailab.github.io/psi-website/blog/psi-0-6.html">
                   <span class="papertitle">&Psi;-0.6: Adaptive Streams of Thought in a Unified Vision-Language World Model</span>
                 </a>
                 <br>
@@ -73,43 +75,15 @@
                 <br>
                 <em>arXiv</em>, 2026 (under review at ICLR 2027)
                 <br>
-                <a href="https://arxiv.org/pdf/2610.32177">paper</a> /
-                <a href="https://arxiv.org/abs/2610.32177">arXiv</a>
+                <a href="https://neuroailab.github.io/psi-website/blog/psi-0-6.html">project page</a> /
+                <a href="https://arxiv.org/abs/2610.32177">arXiv</a> /
+                <a href="https://github.com/awwkl/psi-0.6">code</a>
                 <p></p>
                 <p>
-                  A unified vision-language world model that adaptively composes perception, language, geometry, and simulation within streams of thought, using reinforcement learning to choose which intermediate representations to generate and reason through.
-                </p>
-              </td>
-            </tr>
-
-            <tr>
-              <td style="padding:16px;width:20%;vertical-align:middle">
-                <img src='images/vast.png' width="160">
-              </td>
-              <td style="padding:8px;width:80%;vertical-align:middle">
-                <a href="https://openreview.net/forum?id=gowUOlMjfP">
-                  <span class="papertitle">VAST: Visual Abstractions as Streams of Thought</span>
-                </a>
-                <br>
-                Khai Loong Aw*,
-                Klemen Kotar*,
-                <strong>Baihan Zhang*</strong>,
-                Yifan Liu,
-                Lilian Naing Chen, <br>
-                Rahul Mysore Venkatesh,
-                Atlas Kazemian,
-                Wanhee Lee,
-                Daniel L. K. Yamins
-                <br>
-                <font size="-1">* denotes equal contribution</font>
-                <br>
-                <em>Conference on Cognitive Computational Neuroscience (CCN)</em>, 2026
-                <br>
-                <a href="data/VAST.pdf">paper</a> /
-                <a href="https://openreview.net/forum?id=gowUOlMjfP">openreview</a>
-                <p></p>
-                <p>
-                  A vision-language model that reasons through visual streams of thought &mdash; camera pose, depth, optical flow, and point tracks &mdash; rather than language tokens alone, enabling controllable world modeling and a single model that unifies diverse visual-linguistic tasks.
+                  Chain-of-thought transformed AI reasoning, but it is limited to words. What's the physical-world analogue?
+                  We introduce &Psi;-0.6, one model that reasons in <em>streams of thought</em>: words, depth, motion, camera pose, and imagined scenes &ndash; and learns which to use for each problem.
+                  &Psi;-0.6 surpasses leading open-weight models zero-shot on challenging spatial reasoning and makes two breakthroughs.
+                  First, it thinks beyond words, in streams of thought. Second, it learns how to think: which representation to use, and when.
                 </p>
               </td>
             </tr>
